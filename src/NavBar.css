@@ -1,0 +1,19 @@
+nav {
+    border-radius: 10%;
+    background-color: #1F2937;
+  }
+
+  nav {
+    list-style: none;
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 20px;
+    font-size: 1.5em;
+    color: rgb(3, 151, 112);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+  }

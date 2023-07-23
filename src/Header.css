@@ -1,0 +1,10 @@
+.your-name {
+  display: flex;
+    justify-content: center;
+    color: rgb(255, 241, 241);
+  }
+
+  .header{
+    background-color: #1F2937;
+    padding: 10px;
+  }

@@ -1,0 +1,16 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 400px;
+}
+
+.icon-start{
+    color: white;
+    animation: icon 2s infinite alternate-reverse;
+}
+
+@keyframes icon {
+    from {transform: translateY(-110px);}
+    to {transform: translateY(-22px);}
+  }
