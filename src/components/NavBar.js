@@ -1,13 +1,13 @@
 import "./NavBar.css"
 import { Route, Routes, Link, useNavigate } from "react-router-dom";
-import WorkExperince from "./components/WorkExperince"
-import Education from "./components/Education"
-import Languages from "./components/Languages"
-import Contact from "./components/Contact"
-import PersonalInfo from "./components/PersonalInfo"
-import CreateCV from "./components/CreateCV"
+import WorkExperince from "./WorkExperince"
+import Education from "./Education"
+import Languages from "./Languages"
+import Contact from "./Contact"
+import PersonalInfo from "./PersonalInfo"
+import CreateCV from "./CreateCV"
 import React from "react";
-import AllSections from "./components/allsections";
+import AllSections from "./allsections";
 import { useMediaQuery } from 'react-responsive';
 
 function NavBar() {

@@ -3,20 +3,20 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { BrowserRouter } from "react-router-dom";
-import AllSections from "./components/allsections";
+import AllSections from "./allsections";
 import { Route, Routes, Link, useNavigate} from "react-router-dom";
-import CreateCV from "./components/CreateCV";
-import WorkExperince from "./components/WorkExperince"
-import Education from "./components/Education"
-import Languages from "./components/Languages"
-import Contact from "./components/Contact"
-import PersonalInfo from "./components/PersonalInfo"
-import BuildYourCV from "./components/BuildYourCV";
-import WorkList from "./components/WorkList";
-import EducationList from "./components/EducationList";
-import LanguagesList from "./components/LanguagesList";
-import ContactList from "./components/ContactList";
-import PersonalList from "./components/PersonalList";
+import CreateCV from "./CreateCV";
+import WorkExperince from "./WorkExperince"
+import Education from "./Education"
+import Languages from "./Languages"
+import Contact from "./Contact"
+import PersonalInfo from "./PersonalInfo"
+import BuildYourCV from "./BuildYourCV";
+import WorkList from "./WorkList";
+import EducationList from "./EducationList";
+import LanguagesList from "./LanguagesList";
+import ContactList from "./ContactList";
+import PersonalList from "./PersonalList";
 
 function StartPage() {
   return (
